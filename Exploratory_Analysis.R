@@ -1,10 +1,10 @@
 
 
 #Loading the data files
-#We notice that there are multiple CSV files that need to be read and combined later
-#Hence we are using a loop to read all files in one go.
+#notice that there are multiple CSV files that need to be read and combined later
+#Hence I am using a loop to read all files in one go.
 rm(list = ls())
-setwd("C:/Users/Vineet/Desktop/Adv Stats/Assignment 2/csv")### setting the working directory path
+setwd("C:/Users/Nabanita/Desktop/Adv Stats/Exploratory Analysis/csv")### setting the working directory path
 # Create vector of file names in working direcotry
 files <- list.files() 
 files <- files[grep("csv", files)]  
